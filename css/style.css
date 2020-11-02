@@ -1,0 +1,495 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../css/header2.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.main{
+    max-width: 2250px;
+    margin: auto;
+}
+
+.login-box{
+    width: 375px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.login-box h1{
+    float: left;
+    font-size: 60px;
+    border-bottom: 10px solid #11db71;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    padding: 13px 0;
+}
+
+.login-box h2{
+    float: left;
+    font-size: 18px;
+    margin-bottom: 50px;
+    padding: 13px 0;
+}
+
+.textbox{
+    width: 80%;
+    overflow: hidden;
+    font-size: 30px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 5px solid #11db71;
+    margin-bottom: 25px;
+}
+
+.textbox i{
+    width: 30px;
+    float: left;
+    text-align: center;
+}
+
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;  
+}
+
+.btn{
+    width: 30%;
+    background-color: black;
+    border: 3px solid #11db71;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+    margin-right: 10px;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #11db71;
+}
+
+.container{
+    height: 75vh;
+    width: 30%;
+    word-wrap: break-word;
+    background: rgba(0,0,0,.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 70px;
+}
+
+.container img{
+    height: 70px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container h1{
+    color: white;
+    margin-top: 50px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.container h2{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.table{
+    width: 95%;
+}
+
+.table table{
+    width: 100%;
+    margin-top: 20px;
+    color: #11db71;
+    table-layout: fixed;
+    font-size: 15px;
+}
+
+.table th{
+    text-align: center;
+}
+
+.table table, th, td {
+    border: 2px solid #fff;
+    border-collapse: collapse;
+}
+
+.table th, td{
+    padding: 20px;
+}
+
+
+.containersignup{
+    height: 75vh;
+    width: 30%;
+    background: rgba(0,0,0,.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 70px;
+}
+
+.containersignup h1{
+    color: white;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+form{
+    margin-top: 10px;
+    color: white;
+    width: 90%;
+}
+
+form table{
+    color: white;
+}
+
+.containersignup h2{
+    color: white;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+
+.btn1{
+    width: 20%;
+    background-color: black;
+    border: 3px solid #11db71;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+    transition: 0.6s ease;
+    margin-right: 20px;
+}
+
+.btn1:hover{
+    background-color: white;
+    color: #11db71;
+}
+
+.btn2{
+    width: 30%;
+    background-color: black;
+    border: 3px solid #11db71;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 12px 0;
+    transition: 0.6s ease;
+    margin-left: 10px;
+}
+
+.table1 table{
+    width: 90%;
+    margin-top: 20px;
+    color: white;
+    table-layout: fixed;
+    font-size: 15px;
+}
+
+.table1 th{
+    text-align: center;
+}
+
+.table1 table, th, td {
+    border: 2px solid #fff;
+    border-collapse: collapse;
+}
+
+.table1 th, td{
+    padding: 20px;
+}
+
+.textbox1{
+    width: 50%;
+    overflow: hidden;
+    font-size: 15px;
+    padding: 5px 0;
+    margin: 5px 0;
+    border-bottom: 1px solid #11db71;
+    margin-bottom: 5px;
+}
+
+.login-box a{
+    text-decoration: underline;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    margin-top: 10px;   
+}
+
+.maincontainer{
+    height: 100%;
+    width: 30%;
+    word-wrap: break-word;
+    background: rgba(0,0,0,.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 70px;
+    margin-top: 150px;
+}
+
+.maincontainer h1{
+    color: #11db71;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+
+.maincontainer h2{
+    color: #11db71;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.maincontainer h3{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.btn3{
+    width: 30%;
+    background-color: black;
+    border: 3px solid #11db71;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 12px 0;
+    transition: 0.6s ease;
+    margin-left: 10px;
+}
+
+.btn3:hover{
+    background-color: white;
+    color: #11db71;
+}
+
+.textbox2{
+    width: 200px;
+    overflow: hidden;
+    font-size: 15px;
+    padding: 5px 0;
+    margin: 5px 0;
+    border-bottom: 1px solid #11db71;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.textbox2 i{
+    width: 30px;
+    float: left;
+    text-align: center;
+}
+
+.textbox2 input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;  
+}
+
+.category select{
+    background: white;
+    color: black;
+    font-size: 15px;
+    padding: 5px 0;
+    margin: 5px 0;
+    width: 150px;
+    border: none; 
+}
+
+option{
+    text-align: center;
+}
+
+.editcontainer{
+    height: 100vh;
+    width: 30%;
+    word-wrap: break-word;
+    background: rgba(0,0,0,.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 70px;
+    margin-top: 150px;
+}
+
+.editcontainer h2{
+    color: #11db71;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+h3{
+    margin-top: 20px;
+    color: white;
+}
+
+.lnfcontainer{
+    height: 100%;
+    width: 50%;
+    word-wrap: break-word;
+    background: rgba(0,0,0,.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 70px;
+    color: white;
+    margin-top: 150px;
+}
+
+.lnfcontainer h1{
+    color: #11db71;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.table2 table{
+    width: 90%;
+    margin-top: 20px;
+    color: white;
+    table-layout: fixed;
+    font-size: 15px;
+}
+
+.table2 table, th, td {
+    border: 1px solid #fff;
+    border-collapse: collapse;
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.table2 th, td{
+    padding: 20px;
+}
+
+.btn4{
+    width: 130px;
+    background-color: black;
+    border: 3px solid #11db71;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 12px 0;
+    transition: 0.6s ease;
+    margin-left: 10px;
+}
+
+.btn4:hover{
+    background-color: white;
+    color: #11db71;
+}
+
+.btnform{
+    display: inline;
+}
+
+.btn5{
+    width: 130px;
+    background-color: black;
+    border: 3px solid #11db71;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 6px 0;
+    transition: 0.6s ease;
+    margin-left: 10px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.btn5:hover{
+    background-color: white;
+    color: #11db71;
+}
+
